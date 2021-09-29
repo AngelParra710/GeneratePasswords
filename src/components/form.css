@@ -1,0 +1,61 @@
+.main-container{
+    width: 40%;
+    height: 400px;
+    margin: 0 auto;
+    background-color: #000C66;
+    border-radius: 5px;
+    box-shadow: 3px 3px 5px rgba(255, 255, 255, 0.315);
+    text-align: center;
+}
+
+.main-container h1{
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.main-container h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center
+}
+.container-form{
+    width: 80%;
+    margin: 0 auto;
+}
+.count{
+    display: inline-flex;
+}
+button{
+    color: white;
+    height: 30px;
+    border-radius: 2px;
+    background-color: blueviolet;
+    border: 0px;
+}
+input{
+    height: 28px;
+}
+button:active{
+    background-color: rgb(46, 3, 77);
+}
+.count button{
+    height: 20px;
+    width: 40%;
+    color: white;
+    border-radius: 2px;
+    background-color: blueviolet;
+    border: 0px
+}
+.count button:active{
+    background-color: rgb(46, 3, 77);
+}
+.count p{
+    background-color: indigo;
+    width: 20%;
+}
